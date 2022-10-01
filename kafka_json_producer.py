@@ -29,19 +29,19 @@ from confluent_kafka.schema_registry.json_schema import JSONSerializer
 import pandas as pd
 from typing import List
 
-FILE_PATH = "/Users/shashankmishra/Desktop/Kafka Classes/Confluen Kafka Setup/Confluent-Kafka-Setup/cardekho_dataset.csv"
+FILE_PATH = "C:\Vijay\Personal\Big Data\iNueron - Sudhanshu & Shashank\Kafka\Kafka-Demo\cardekho_dataset.csv"
 columns=['car_name', 'brand', 'model', 'vehicle_age', 'km_driven', 'seller_type',
        'fuel_type', 'transmission_type', 'mileage', 'engine', 'max_power',
        'seats', 'selling_price']
 
-API_KEY = 'HNUA2KUYENIP44PV'
-ENDPOINT_SCHEMA_URL  = 'https://psrc-35wr2.us-central1.gcp.confluent.cloud'
-API_SECRET_KEY = 'TH5n14kG1JAD6b8rmf92Y6wyXPY66De2kzbiZUS0jytRfkxpEM4rWdlGVSsM/nFR'
-BOOTSTRAP_SERVER = 'pkc-lzvrd.us-west4.gcp.confluent.cloud:9092'
+API_KEY = 'NBJSFDGOUDDTYGHO'
+ENDPOINT_SCHEMA_URL  = 'https://psrc-mw731.us-east-2.aws.confluent.cloud'
+API_SECRET_KEY = '9hxzXooSvBrAIlplgdMgfCDUADWKcT+7zNqYVFpMLd9PWfxIYuLOIKWGgCjj7rT6'
+BOOTSTRAP_SERVER = 'pkc-6ojv2.us-west4.gcp.confluent.cloud:9092'
 SECURITY_PROTOCOL = 'SASL_SSL'
 SSL_MACHENISM = 'PLAIN'
-SCHEMA_REGISTRY_API_KEY = 'PBEUUAHOC2GTPJWT'
-SCHEMA_REGISTRY_API_SECRET = 'EuAq+lp9CJYCs2n/TKOdhk9C2bbMl0ZRyE6KfYJ0v2Ng6anqHnLzqAtCjSwMSE+Y'
+SCHEMA_REGISTRY_API_KEY = 'OT5YNB3C5FHTCYVK'
+SCHEMA_REGISTRY_API_SECRET = 'qMCxojetL7D5QtiUoKceAOA+IxYhr+r8b4zsQ5tQvhTZSPtSjaXtDy964fyIrFoq'
 
 
 def sasl_conf():
